@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj": {}
+    "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj": {
+    "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
+        "projectUniqueName": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
         "projectName": "OltToWmGPON_1",
-        "projectPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
+        "projectPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
         "packagesPath": "C:\\Users\\sofiana\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\obj\\",
+        "outputPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sofiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,9 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
-            "SLC.Lib.Common": {
+            "Skyline.DataMiner.Core.InterAppCalls.Common": {
               "target": "Package",
-              "version": "[1.4.0.2, )"
+              "version": "[1.0.0.3, )"
             },
             "Skyline.DataMiner.Dev.Automation": {
               "target": "Package",

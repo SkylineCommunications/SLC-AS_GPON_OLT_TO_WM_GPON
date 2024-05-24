@@ -28,6 +28,40 @@
           }
         }
       },
+      "Skyline.DataMiner.Core.DataMinerSystem.Common/1.0.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "Skyline.DataMiner.Dev.Common": "10.1.0.6",
+          "System.Threading.Tasks.Dataflow": "7.0.0"
+        },
+        "compile": {
+          "lib/net462/Skyline.DataMiner.Core.DataMinerSystem.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/Skyline.DataMiner.Core.DataMinerSystem.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Skyline.DataMiner.Core.InterAppCalls.Common/1.0.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Skyline.DataMiner.Core.DataMinerSystem.Common": "1.0.1.4"
+        },
+        "compile": {
+          "lib/net462/Skyline.DataMiner.Core.InterAppCalls.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/Skyline.DataMiner.Core.InterAppCalls.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Skyline.DataMiner.Dev.Automation/10.2.0.25": {
         "type": "package",
         "dependencies": {
@@ -124,21 +158,24 @@
           "lib/net462/SLProtoBufLibrary.dll": {}
         }
       },
-      "SLC.Lib.Common/1.4.0.2": {
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
+      "System.Threading.Tasks.Dataflow/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net462/SLC.Lib.Common.dll": {
+          "lib/net462/System.Threading.Tasks.Dataflow.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net462/SLC.Lib.Common.dll": {
+          "lib/net462/System.Threading.Tasks.Dataflow.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
         }
-      },
-      "StyleCop.Analyzers/1.1.118": {
-        "type": "package"
       }
     }
   },
@@ -192,6 +229,38 @@
         "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
         "sharpziplib.1.3.2.nupkg.sha512",
         "sharpziplib.nuspec"
+      ]
+    },
+    "Skyline.DataMiner.Core.DataMinerSystem.Common/1.0.1.4": {
+      "sha512": "x/D12nmSqjmzCEFUgH/NAS9BfrsP0cfmfq/0KbumsB30ykSSghsJrHCKDhuKURUhf8N1IofkPdmRvq0UTxsPaA==",
+      "type": "package",
+      "path": "skyline.dataminer.core.dataminersystem.common/1.0.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net462/Skyline.DataMiner.Core.DataMinerSystem.Common.dll",
+        "lib/net462/Skyline.DataMiner.Core.DataMinerSystem.Common.xml",
+        "skyline.dataminer.core.dataminersystem.common.1.0.1.4.nupkg.sha512",
+        "skyline.dataminer.core.dataminersystem.common.nuspec"
+      ]
+    },
+    "Skyline.DataMiner.Core.InterAppCalls.Common/1.0.0.3": {
+      "sha512": "2Djs0PUyfXIkFyWBF0REhvPw+RHrsct5aMUF8MO6Z2e6JukLj63Ao6jCt24k+X26QJ8KZ7tty/F3jgQEHSa/RQ==",
+      "type": "package",
+      "path": "skyline.dataminer.core.interappcalls.common/1.0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net462/Skyline.DataMiner.Core.InterAppCalls.Common.dll",
+        "lib/net462/Skyline.DataMiner.Core.InterAppCalls.Common.xml",
+        "skyline.dataminer.core.interappcalls.common.1.0.0.3.nupkg.sha512",
+        "skyline.dataminer.core.interappcalls.common.nuspec"
       ]
     },
     "Skyline.DataMiner.Dev.Automation/10.2.0.25": {
@@ -333,19 +402,6 @@
         "skyline.dataminer.files.slprotobuflibrary.nuspec"
       ]
     },
-    "SLC.Lib.Common/1.4.0.2": {
-      "sha512": "wo6/EBnV7hy9o36kUdYJNzqx4PxeE5kKEHoPcLjpAShRf0siFtYnXO5SQ08W8jDzAlsRx66hb4AQr8Vf5Ru2UQ==",
-      "type": "package",
-      "path": "slc.lib.common/1.4.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net462/SLC.Lib.Common.dll",
-        "lib/net462/SLC.Lib.Common.xml",
-        "slc.lib.common.1.4.0.2.nupkg.sha512",
-        "slc.lib.common.nuspec"
-      ]
-    },
     "StyleCop.Analyzers/1.1.118": {
       "sha512": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
       "type": "package",
@@ -370,12 +426,41 @@
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
+    },
+    "System.Threading.Tasks.Dataflow/7.0.0": {
+      "sha512": "BmSJ4b0e2nlplV/RdWVxvH7WECTHACofv06dx/JwOYc0n56eK1jIWdQKNYYsReSO4w8n1QA5stOzSQcfaVBkJg==",
+      "type": "package",
+      "path": "system.threading.tasks.dataflow/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Tasks.Dataflow.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.Tasks.Dataflow.targets",
+        "lib/net462/System.Threading.Tasks.Dataflow.dll",
+        "lib/net462/System.Threading.Tasks.Dataflow.xml",
+        "lib/net6.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/net6.0/System.Threading.Tasks.Dataflow.xml",
+        "lib/net7.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/net7.0/System.Threading.Tasks.Dataflow.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Dataflow.xml",
+        "lib/netstandard2.1/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard2.1/System.Threading.Tasks.Dataflow.xml",
+        "system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
+        "system.threading.tasks.dataflow.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "Newtonsoft.Json >= 13.0.3",
-      "SLC.Lib.Common >= 1.4.0.2",
+      "Skyline.DataMiner.Core.InterAppCalls.Common >= 1.0.0.3",
       "Skyline.DataMiner.Dev.Automation >= 10.2.0.25",
       "StyleCop.Analyzers >= 1.1.118"
     ]
@@ -386,11 +471,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
+      "projectUniqueName": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
       "projectName": "OltToWmGPON_1",
-      "projectPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
+      "projectPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
       "packagesPath": "C:\\Users\\sofiana\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON\\OltToWmGPON_1\\obj\\",
+      "outputPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sofiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -424,9 +509,9 @@
             "target": "Package",
             "version": "[13.0.3, )"
           },
-          "SLC.Lib.Common": {
+          "Skyline.DataMiner.Core.InterAppCalls.Common": {
             "target": "Package",
-            "version": "[1.4.0.2, )"
+            "version": "[1.0.0.3, )"
           },
           "Skyline.DataMiner.Dev.Automation": {
             "target": "Package",
