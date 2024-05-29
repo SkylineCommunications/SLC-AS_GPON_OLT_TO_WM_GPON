@@ -30,18 +30,18 @@ jobs:
       sonarCloudToken: ${{ secrets.SONAR_TOKEN }}
     
   # # Optional 0 or More CD Jobs as needed
-  CD:
-    if: github.ref_type == 'tag'
-    environment: production
-    name: CD
-    runs-on: ubuntu-latest
-    needs: CI
+  # CD:
+  #   if: github.ref_type == 'tag'
+  #   environment: production
+  #   name: CD
+  #   runs-on: ubuntu-latest
+  #   needs: CI
 
-    steps:
-      - uses: actions/checkout@v4
+  #   steps:
+  #     - uses: actions/checkout@v4
         
-      - name: Install .NET Tools
-        run: dotnet tool install -g Skyline.DataMiner.CICD.Tools.DataMinerDeploy
+  #     - name: Install .NET Tools
+  #       run: dotnet tool install -g Skyline.DataMiner.CICD.Tools.DataMinerDeploy
 
-      - name: Deploy to DataMiner
-        run: dataminer-package-deploy from-catalog --artifact-id "${{ needs.CI.outputs.artifact-id }}" --dm-catalog-token ${{ secrets.DATAMINER_DEPLOY_KEY }}
+  #     - name: Deploy to DataMiner
+  #       run: dataminer-package-deploy from-catalog --artifact-id "${{ needs.CI.outputs.artifact-id }}" --dm-catalog-token ${{ secrets.DATAMINER_DEPLOY_KEY }}
