@@ -47,6 +47,7 @@ Revision History:
 DATE		VERSION		AUTHOR			COMMENTS
 
 08/07/2020	1.0.0.1		DPR, Skyline	Initial Version
+08/07/2020	1.0.0.3		DPR, Skyline	Update NuGet interapp
 
  *****************************************************************************
  *
@@ -122,26 +123,35 @@ namespace Skyline.Protocol
 	{
 		public class TopicMessagingRoot : Message
 		{
-			[JsonProperty("workflow")] public string Workflow { get; set; }
+			[JsonProperty("workflow")]
+			public string Workflow { get; set; }
 
-			[JsonProperty("topic")] public string TopicName { get; set; }
+			[JsonProperty("topic")]
+			public string TopicName { get; set; }
 
-			[JsonProperty("messageType")] public string MessageType { get; set; }
+			[JsonProperty("messageType")]
+			public string MessageType { get; set; }
 
-			[JsonProperty("data")] public TopicDataInfo Data { get; set; }
+			[JsonProperty("data")]
+			public TopicDataInfo Data { get; set; }
 		}
 
 		public class TopicDataInfo
 		{
-			[JsonProperty("requesterId")] public string RequesterId { get; set; }
+			[JsonProperty("requesterId")]
+			public string RequesterId { get; set; }
 
-			[JsonProperty("requesterName")] public string RequesterName { get; set; }
+			[JsonProperty("requesterName")]
+			public string RequesterName { get; set; }
 
-			[JsonProperty("responseTime")] public string ResponseTime { get; set; }
+			[JsonProperty("responseTime")]
+			public string ResponseTime { get; set; }
 
-			[JsonProperty("requestDateTime")] public string RequestDateTime { get; set; }
+			[JsonProperty("requestDateTime")]
+			public string RequestDateTime { get; set; }
 
-			[JsonProperty("lastTimestamp")] public string LastTimestamp { get; set; }
+			[JsonProperty("lastTimestamp")]
+			public string LastTimestamp { get; set; }
 		}
 	}
 }

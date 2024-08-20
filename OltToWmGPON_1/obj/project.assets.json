@@ -46,10 +46,11 @@
           }
         }
       },
-      "Skyline.DataMiner.Core.InterAppCalls.Common/1.0.0.3": {
+      "Skyline.DataMiner.Core.InterAppCalls.Common/1.0.1.1": {
         "type": "package",
         "dependencies": {
-          "Skyline.DataMiner.Core.DataMinerSystem.Common": "1.0.1.4"
+          "Skyline.DataMiner.Core.DataMinerSystem.Common": "1.0.1.4",
+          "Skyline.DataMiner.Files.DataMinerMessageBroker.API": "10.3.0.14"
         },
         "compile": {
           "lib/net462/Skyline.DataMiner.Core.InterAppCalls.Common.dll": {
@@ -86,6 +87,15 @@
           "System.Core",
           "System.Xml"
         ]
+      },
+      "Skyline.DataMiner.Files.DataMinerMessageBroker.API/10.3.0.14": {
+        "type": "package",
+        "compile": {
+          "ref/net462/DataMinerMessageBroker.API.dll": {}
+        },
+        "runtime": {
+          "lib/net462/DataMinerMessageBroker.API.dll": {}
+        }
       },
       "Skyline.DataMiner.Files.protobufnet/10.2.0.25": {
         "type": "package",
@@ -247,10 +257,10 @@
         "skyline.dataminer.core.dataminersystem.common.nuspec"
       ]
     },
-    "Skyline.DataMiner.Core.InterAppCalls.Common/1.0.0.3": {
-      "sha512": "2Djs0PUyfXIkFyWBF0REhvPw+RHrsct5aMUF8MO6Z2e6JukLj63Ao6jCt24k+X26QJ8KZ7tty/F3jgQEHSa/RQ==",
+    "Skyline.DataMiner.Core.InterAppCalls.Common/1.0.1.1": {
+      "sha512": "CFbPE1H8R2TD13AKQFrySCRBc2Vp0T5my7UZPyUF3nFQN3Q81/bAaVa7owsppyjxRdJGoArDbSC430pNHVRw0Q==",
       "type": "package",
-      "path": "skyline.dataminer.core.interappcalls.common/1.0.0.3",
+      "path": "skyline.dataminer.core.interappcalls.common/1.0.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -259,7 +269,7 @@
         "README.md",
         "lib/net462/Skyline.DataMiner.Core.InterAppCalls.Common.dll",
         "lib/net462/Skyline.DataMiner.Core.InterAppCalls.Common.xml",
-        "skyline.dataminer.core.interappcalls.common.1.0.0.3.nupkg.sha512",
+        "skyline.dataminer.core.interappcalls.common.1.0.1.1.nupkg.sha512",
         "skyline.dataminer.core.interappcalls.common.nuspec"
       ]
     },
@@ -289,6 +299,22 @@
         "images/devicon.png",
         "skyline.dataminer.dev.common.10.2.0.25.nupkg.sha512",
         "skyline.dataminer.dev.common.nuspec"
+      ]
+    },
+    "Skyline.DataMiner.Files.DataMinerMessageBroker.API/10.3.0.14": {
+      "sha512": "OaMWxu6es1LoPtdIm9f4DVBlPBpqKhuw/anoZck2eyte0eDgjC12LNNOat4tsW69PCANO8D7x0Df+Xp6JL6ETw==",
+      "type": "package",
+      "path": "skyline.dataminer.files.dataminermessagebroker.api/10.3.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "docs/README.md",
+        "images/fileicon.png",
+        "lib/net462/DataMinerMessageBroker.API.dll",
+        "ref/net462/DataMinerMessageBroker.API.dll",
+        "skyline.dataminer.files.dataminermessagebroker.api.10.3.0.14.nupkg.sha512",
+        "skyline.dataminer.files.dataminermessagebroker.api.nuspec"
       ]
     },
     "Skyline.DataMiner.Files.protobufnet/10.2.0.25": {
@@ -460,25 +486,32 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "Newtonsoft.Json >= 13.0.3",
-      "Skyline.DataMiner.Core.InterAppCalls.Common >= 1.0.0.3",
+      "Skyline.DataMiner.Core.InterAppCalls.Common >= 1.0.1.1",
       "Skyline.DataMiner.Dev.Automation >= 10.2.0.25",
       "StyleCop.Analyzers >= 1.1.118"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sofiana\\.nuget\\packages\\": {}
+    "C:\\Users\\Danielapr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
+      "projectUniqueName": "C:\\GIT Repositories\\EPM Automations\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
       "projectName": "OltToWmGPON_1",
-      "projectPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
-      "packagesPath": "C:\\Users\\sofiana\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Skyline\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\obj\\",
+      "projectPath": "C:\\GIT Repositories\\EPM Automations\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\OltToWmGPON_1.csproj",
+      "packagesPath": "C:\\Users\\Danielapr\\.nuget\\packages\\",
+      "outputPath": "C:\\GIT Repositories\\EPM Automations\\SLC_AS_GPON_OLT_TO_WM_GPON\\OltToWmGPON_1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sofiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Danielapr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -499,6 +532,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -511,7 +549,7 @@
           },
           "Skyline.DataMiner.Core.InterAppCalls.Common": {
             "target": "Package",
-            "version": "[1.0.0.3, )"
+            "version": "[1.0.1.1, )"
           },
           "Skyline.DataMiner.Dev.Automation": {
             "target": "Package",
@@ -524,7 +562,7 @@
             "version": "[1.1.118, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },

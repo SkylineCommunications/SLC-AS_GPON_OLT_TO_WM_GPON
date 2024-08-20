@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OltToWmGPON_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b243ca6b9d4ce3c9f7372f666f6508bd4b8a8b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("OltToWmGPON_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OltToWmGPON_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,7 +16,7 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-		<PackageReference Include="Skyline.DataMiner.Core.InterAppCalls.Common" Version="1.0.0.3" />
+		<PackageReference Include="Skyline.DataMiner.Core.InterAppCalls.Common" Version="1.0.1.1" />
 		<PackageReference Include="Skyline.DataMiner.Dev.Automation" Version="10.2.0.25" />
 	</ItemGroup>
 	<ProjectExtensions>

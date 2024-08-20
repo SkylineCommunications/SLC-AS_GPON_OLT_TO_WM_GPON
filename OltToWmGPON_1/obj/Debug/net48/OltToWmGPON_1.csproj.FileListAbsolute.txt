@@ -20,3 +20,28 @@ C:\GitHub\Skyline\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON\OltToWmGPON_1\obj\Debug
 C:\GitHub\Skyline\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.dll
 C:\GitHub\Skyline\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.xml
 C:\GitHub\Skyline\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.pdb
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\OltToWmGPON_1.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\OltToWmGPON_1.pdb
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\OltToWmGPON_1.xml
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\Newtonsoft.Json.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\ICSharpCode.SharpZipLib.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\Skyline.DataMiner.Core.DataMinerSystem.Common.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\Skyline.DataMiner.Core.InterAppCalls.Common.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\protobuf-net.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\Skyline.DataMiner.Storage.Types.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\SLAnalyticsTypes.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\SLLoggerUtil.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\SLManagedAutomation.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\SLNetTypes.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\SLProtoBufLibrary.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\bin\Debug\net48\System.Threading.Tasks.Dataflow.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.csproj.AssemblyReference.cache
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.AssemblyInfoInputs.cache
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.AssemblyInfo.cs
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.csproj.CoreCompileInputs.cache
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.sourcelink.json
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmG.6B5A9B23.Up2Date
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.dll
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.xml
+C:\GIT Repositories\EPM Automations\SLC_AS_GPON_OLT_TO_WM_GPON\OltToWmGPON_1\obj\Debug\net48\OltToWmGPON_1.pdb
